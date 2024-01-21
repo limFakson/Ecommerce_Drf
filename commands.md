@@ -17,3 +17,27 @@ pip install djangorestframework
 pip install pytest
 
 pip install pytest-django
+
+pip install flake8
+
+python manage.py startapp product ./drfecommerce/product
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+
+pip install drf-spectacular
+
+python manage.py spectacular --file schema.yml
+
+pip install coverage
+
+coverage run -m pytest
+
+coverage html
+
+pip install pytest-cov
+
+pip install pytest-factoryboy

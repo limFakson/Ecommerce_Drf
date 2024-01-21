@@ -4,4 +4,7 @@ venv/
 db.sqlite3
 .env
 .coverage
+schema.yml
+.coverage
 .vscode
+htmlcov/
